@@ -1,22 +1,22 @@
 
-/* *{
+*{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
     text-decoration: none;
-} */
+} 
 
 nav {
     padding: 3px;
     display: flex;
     justify-content: space-between;
-    margin: 10px;
-   
+    margin: 10px 100px;
 }
 .title {
     font-family: "Azeret Mono", monospace;
     width: 128px;
     height: 33px;
+ 
 }
 .btn {
     opacity: 100%;
@@ -26,57 +26,72 @@ nav {
     height: 50px;
     color: #0D1321;
     font-family: "Azeret Mono", monospace;
+   
 }
 .container {
-    width: 1440px;
-    height: 502px;
+    width: 100%;
+    height: 522px;
     background-image: url(../assets/Hero-bg.png);
-    
+    position: relative;
 }
-.image-border {
+.img-container{
+    position: absolute;
+    margin: 0 auto;
+    top: 10%;
+    left: 45%;
+}
+.images {
     width: 240px;
     height: 240px;
-    margin: 30px 500px;
+
+}
+.targed {
+    position: absolute;
+    margin: 0 auto;
+    top: 60%;
+    left: 30%;
+ 
 }
 .subtitle {
-    margin-left: 380px;
+    padding: 10px;
     font-family: "Azeret Mono", monospace;
-    align-items: center;
-    
+    text-align: center; 
 }
 #btn {
+    position: absolute;
+   
+    left: 30%;
     background-color: #0D1321;
     color: white;
     border-radius: 6px;
-    padding: 5px;
+    border: none;
+    padding: 10px;
     width: 140px;
     height: 42px;
-   margin-left:  520px;
+   
 }
 /* why web development section */
 .container-2 {
-    border-radius: 20px;
-    width: 1140px;
-    height: 1393px;
-    padding: 50px;
-    box-shadow: 10px 12px 15px cadetblue;
+    width: 100%;
+    position: relative;
+    box-shadow: 4px 5px 6px gray;
 }
 .contented {
+    margin-left: 200px;
     padding: 40px;
     width: 946px;
     height: 1233px;
+    left: 50%;
 }
 .heading {
-    width: 900px;
-    height: 37px;
+    padding: 10px;
     font-size: 32px;
     text-align: center;
     font-family: "Azeret Mono", monospace;
 }
  .description {
-    width: 852px;
-    height: 52px;
-    align-items: center;
+    font-size: small;
+    color:rgb(13, 19, 33);
     text-align: center; 
 } 
 /* section-2 start here */
@@ -138,35 +153,54 @@ nav {
 
 /* section-2 */
 .box-border {
-   
-    padding: 20px;
-    margin: 50px 50px;
-    width: 1100px;
-    height: 740px;
-    box-shadow: 10px 12px 15px cadetblue;
-}
-.nav-title {
-    font-family: "Azeret Mono", monospace;
-    padding: 10px;
-    margin-left: 400px;
-}
-.def {
+    height: 700px;
+    position: relative;
     
+    box-shadow: 5px 12px 15px cadetblue;
+}
+.box-title{
+    top: 10%;
+    left: 35%;
+    position: absolute;
+
+}
+
+.font{
+    font-size: 30px;
     font-family: "Azeret Mono", monospace;
-    margin-left: 300px;
+    text-align: center;
+    padding: 10px;
+}
+.fonti{
+    font-size: 15px;
+    font-family: "Azeret Mono", monospace;
+    text-align: center;
+    padding: 10px;
+    color: rgb(13, 19, 33)
+}
+.video{
+    position: absolute;
+    left: 15%;
+    top: 30%;
+    width: 1000px;
+    height: 500px;
+   
 }
 .video-tag {
-    border-radius: 16px;
-    margin-top: 0px;
-    margin-left: 50px;
+    position: absolute;
+    right: 10%;
+    width: 80%;
+    border-radius: 10px;
+
     
 }
 /* main-content section start here */
 .main-content {
     padding: 20px;
     box-shadow: 10px 12px 15px cadetblue;
-    width: 1100px;
+    width: 1400px;
     height: 450px;
+    margin-left: 20px;
 }
 .tecnical {
     font-family: "Azeret Mono", monospace;
